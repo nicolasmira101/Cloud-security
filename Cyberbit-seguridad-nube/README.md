@@ -6,15 +6,15 @@ Aprovechar los recursos en la nube en redes híbridas o totalmente basadas en la
 
 ## Syllabus
 
-1. [Fundamentos AWS](Fundamentos-AWS)
-2. [Security+](https://github.com/nicolasmira101/cyberbit-seguridad-nube/tree/f6b96a481540de201f67c798a0fc5c80593fb47f/Security%2B)
-3. [Docker](https://github.com/nicolasmira101/cyberbit-seguridad-nube/tree/f6b96a481540de201f67c798a0fc5c80593fb47f/Docker)
-4. [Kubernetes](https://github.com/nicolasmira101/cyberbit-seguridad-nube/tree/f6b96a481540de201f67c798a0fc5c80593fb47f/Kubernetes)
-5. [Vulnerabilidades](https://github.com/nicolasmira101/cyberbit-seguridad-nube/tree/f6b96a481540de201f67c798a0fc5c80593fb47f/Vulnerabilidades)
-6. [Actores de amenazas](https://github.com/nicolasmira101/cyberbit-seguridad-nube/tree/f6b96a481540de201f67c798a0fc5c80593fb47f/Actores-amenazas)
-7. [Inteligencia de amenazas](https://github.com/nicolasmira101/cyberbit-seguridad-nube/tree/f6b96a481540de201f67c798a0fc5c80593fb47f/Inteligencia-amenazas)
-8. [Red Team](https://github.com/nicolasmira101/cyberbit-seguridad-nube/tree/f6b96a481540de201f67c798a0fc5c80593fb47f/Red-team)
-9. [Blue Team](https://github.com/nicolasmira101/cyberbit-seguridad-nube/tree/f6b96a481540de201f67c798a0fc5c80593fb47f/Blue-team)
+1. [Fundamentos AWS](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Fundamentos-AWS)
+2. [Security+](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Security%2B)
+3. [Docker](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Docker)
+4. [Kubernetes](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Kubernetes)
+5. [Vulnerabilidades](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Vulnerabilidades)
+6. [Actores de amenazas](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Actores-amenazas)
+7. [Inteligencia de amenazas](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Inteligencia-amenazas)
+8. [Red Team](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Red-team)
+9. [Blue Team](https://github.com/nicolasmira101/Cloud-security/tree/948ca1671daba22051463a5e3602a012794b73a9/Cyberbit-seguridad-nube/Blue-team)
 
 ## Agradecimientos
 
