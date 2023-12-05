@@ -52,11 +52,11 @@
 - Proporciona un servicio gestionado para ejecutar Kubernetes en AWS.
 - Simplifica la implementación, la escalabilidad y la gestión de aplicaciones basadas en Kubernetes.
 
-# Componentes AWS Cloud Infrastructure
+## Componentes AWS Cloud Infrastructure
 
 ![Imagen](https://i.imgur.com/vS9FE77.png)
 
-## Administración y supervisión
+### Administración y supervisión
 
 - [**AWS CloudWatch**](https://aws.amazon.com/es/cloudwatch/): Ofrece monitoreo y observabilidad para recursos en la nube, permitiendo la recopilación de registros, seguimiento de métricas, creación de alarmas y visualización de datos operativos en tiempo real.
 
@@ -70,7 +70,7 @@
 
 - [**AWS Organizations**](https://aws.amazon.com/es/organizations/): Facilita la administración de múltiples cuentas de AWS, permitiendo la creación de políticas, la consolidación de facturación y el control centralizado.
 
-## Bases de datos
+### Bases de datos
 
 - [**Amazon RDS (Relational Database Service)**](https://aws.amazon.com/es/rds/): Ofrece bases de datos relacionales como MySQL, PostgreSQL, SQL Server, Oracle, y MariaDB. Gestiona tareas como aprovisionamiento, parches, copias de seguridad y recuperación.
 
@@ -86,7 +86,7 @@
 
 - [**Amazon Timestream**](https://aws.amazon.com/es/timestream/): Un servicio de base de datos para series temporales, optimizado para almacenar y consultar datos de series temporales.
 
-## Redes
+### Redes
 
 - [**Amazon VPC (Virtual Private Cloud)**](https://aws.amazon.com/es/vpc/): Permite a los usuarios crear una red virtual personalizada en el entorno de AWS. Ofrece control sobre la configuración de la red, como la asignación de direcciones IP, la creación de subredes y la gestión de tablas de ruteo.
 
@@ -102,13 +102,13 @@
 
 - [**AWS Elastic Load Balancing**](https://aws.amazon.com/es/elasticloadbalancing/): Distribuye automáticamente el tráfico entrante de aplicaciones entre diversos destinos, como instancias EC2, mejorando la tolerancia a fallos y la escalabilidad.
 
-## Cómputo
+### Cómputo
 
 - [**AWS Batch**](https://aws.amazon.com/es/batch/): Se emplea para ejecutar trabajos en paralelo de alto rendimiento, liberando a los usuarios de la carga de administrar la infraestructura subyacente.
 
 - [**Amazon Lightsail**](https://aws.amazon.com/es/lightsail/): Ofrece servidores virtuales, bases de datos, almacenamiento y redes de fácil utilización y coste reducido, siendo una opción ideal para aplicaciones más simples o para usuarios menos experimentados en la nube.
 
-## Serverless
+### Serverless
 
 - [**AWS Lambda**](https://aws.amazon.com/es/lambda/): Permite ejecutar código sin servidor, escalando automáticamente en respuesta a eventos definidos. Los desarrolladores solo necesitan cargar su código y AWS se encarga del resto.
 
@@ -116,13 +116,13 @@
 
 - [**AWS Step Functions**](https://aws.amazon.com/es/step-functions/): Ayuda a coordinar componentes de aplicaciones serverless mediante flujos de trabajo visuales. Permite la creación de flujos de trabajo que coordinan servicios como Lambda Functions.
 
-## Recuperación ante desastres
+### Recuperación ante desastres
 
 - [**AWS Backup**](https://aws.amazon.com/es/backup/): Servicio gestionado para centralizar y automatizar copias de seguridad de múltiples servicios de AWS.
  
 - [**AWS Elastic Disaster Recovery**](https://aws.amazon.com/es/disaster-recovery/): Recuperación de aplicaciones escalable y rentable en AWS.
 
-## Almacenamiento
+### Almacenamiento
 
 - [**Amazon S3 (Simple Storage Service)**](https://aws.amazon.com/es/s3/): Es uno de los servicios de almacenamiento en la nube más populares, permitiendo almacenar y recuperar datos de manera flexible y escalable con altos niveles de durabilidad.
 
@@ -132,7 +132,7 @@
 
 - [**Amazon EFS (Elastic File System)**](https://aws.amazon.com/es/efs/): Proporciona un sistema de archivos escalable y completamente administrado para usar con instancias de EC2 y servicios locales. Permite el acceso simultáneo desde múltiples instancias de EC2.
 
-## Seguridad y control de acceso
+### Seguridad y control de acceso
 
 - [**Identity and Access Management (IAM)**](https://aws.amazon.com/es/iam/): IAM permite la gestión centralizada de usuarios, roles y permisos, controlando quién puede acceder a los recursos y qué acciones pueden realizar.
 
@@ -148,7 +148,7 @@
 
 - [**Amazon GuardDuty**](https://aws.amazon.com/es/guardduty/): Monitorea y analiza continuamente la actividad maliciosa en una cuenta de AWS, proporcionando detección de amenazas.
 
-## Inteligencia Artificial y Machine Learning
+### Inteligencia Artificial y Machine Learning
 
 - [**Amazon SageMaker**](https://aws.amazon.com/es/sagemaker/): Plataforma para construir, entrenar y desplegar modelos de ML.
 - [**Amazon Rekognition**](https://aws.amazon.com/es/rekognition/): Reconocimiento de imágenes y videos.
