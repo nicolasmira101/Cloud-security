@@ -1,15 +1,15 @@
-## AWS Computing
+# Amazon Web Services
 
-### Importancia del cómputo en la nube
+## Importancia del cómputo en la nube
 
 - Escalabilidad
 - Ahorro de costos
 - Flexibilidad
 - Productividad incrementada
 
-### Servicios AWS
+## Servicios AWS
 
-#### [Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/es/ec2/)
+### [Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/es/ec2/)
 
 - Permite a los usuarios alquilar capacidad informática virtual.
 - Se puede crear y gestionar servidores virtuales (llamados instancias) según las necesidades.
@@ -18,14 +18,14 @@
 - Permite ejecutar una amplia gama de sistemas operativos y software en las instancias.
 - Proporciona herramientas para configurar redes privadas virtuales (VPN), firewalls y control de acceso para mantener los datos seguros.
  
-#### [Amazon Machine Images (AMI)](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/AMIs.html)
+### [Amazon Machine Images (AMI)](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/AMIs.html)
 
 - Se utiliza para crear y lanzar instancias de máquinas virtuales en AWS.
 - Es una plantilla que contiene una imagen preconfigurada de un sistema operativo, aplicaciones y configuraciones predeterminadas.
 - Facilitar la implementación rápida y consistente de entornos informáticos dentro de la infraestructura de AWS.
 - Permiten a los usuarios crear copias de máquinas virtuales (instancias EC2) de manera eficiente.
  
-#### [AWS Lambda](https://aws.amazon.com/es/lambda/)
+### [AWS Lambda](https://aws.amazon.com/es/lambda/)
 
 - Es un servicio de cómputo sin servidor que permite ejecutar código sin la necesidad de aprovisionar o administrar servidores.
 - Ejecutar tareas automatizadas, como procesar archivos o realizar copias de seguridad.
@@ -35,19 +35,19 @@
 - Enviar notificaciones o alertas basadas en ciertos eventos o condiciones en tus aplicaciones.
 - Procesamiento de datos de dispositivos IoT.
 
-### Servicios de contenedores en AWS
+## Servicios de contenedores en AWS
 
-#### [Amazon Elastic Container Service (ECS)](https://aws.amazon.com/es/ecs/)
+### [Amazon Elastic Container Service (ECS)](https://aws.amazon.com/es/ecs/)
 
 - Permite ejecutar y escalar contenedores Docker en AWS.
 - Administra clústeres de contenedores sin la necesidad de configurar la infraestructura subyacente.
 
-#### [Amazon Elastic Container Registry (ECR)](https://aws.amazon.com/es/ecr/)
+### [Amazon Elastic Container Registry (ECR)](https://aws.amazon.com/es/ecr/)
 
 - Proporciona un repositorio privado para almacenar, administrar y compartir imágenes de contenedores Docker.
 - Complementa servicios como ECS y EKS para facilitar el flujo de trabajo de desarrollo y despliegue.
   
-#### [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/es/eks/)
+### [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/es/eks/)
 
 - Proporciona un servicio gestionado para ejecutar Kubernetes en AWS.
 - Simplifica la implementación, la escalabilidad y la gestión de aplicaciones basadas en Kubernetes.
@@ -155,3 +155,32 @@
 - [**Amazon Comprehend**](https://aws.amazon.com/es/comprehend/): Procesamiento de lenguaje natural (NLP) para análisis de texto.
 - [**Amazon Polly**](https://aws.amazon.com/es/polly/): Conversión de texto a voz (TTS).
 - [**Amazon Lex**](https://aws.amazon.com/es/pm/lex/): Creación de interfaces de conversación (chatbots).
+
+## AWS Storage
+
+## AWS Networking
+
+- Grupos de seguridad, ACL
+- Direcciones IP
+- VPC
+- Subredes
+- LB y ELB
+- Internet Gateway (IGW)
+  
+## Identities and Secure Access
+
+- IAM (usuarios IAM, usuario raiz, grupos, funciones)
+- Directivas de IAM
+- Usuarios de terceros (ldp) (Amazon Cognito, AD)
+
+## Monitoring and Management
+
+- Supervisión
+- CloudTrail
+- Monitorización EC2
+- CloudWatch
+
+ ## CloudFormation
+
+ - Ejemplo de una plantilla
+ - Pros y contras
