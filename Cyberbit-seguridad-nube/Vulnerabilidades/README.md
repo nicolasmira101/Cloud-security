@@ -21,3 +21,9 @@
 ## PrintNightmare
 
 ## MPI Desynchronization
+
+## Correo electrónico
+
+- CVE-2022-24682
+- CVE-2022-24263
+- Horde webmail 5.2.22
