@@ -19,3 +19,5 @@
 - https://www.hackthebox.com/blog/Whats-Going-On-With-Log4j-Exploitation
 
 ## PrintNightmare
+
+## MPI Desynchronization
