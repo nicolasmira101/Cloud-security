@@ -17,3 +17,5 @@
 
 - https://www.trendmicro.com/en_se/what-is/apache-log4j-vulnerability.html
 - https://www.hackthebox.com/blog/Whats-Going-On-With-Log4j-Exploitation
+
+## PrintNightmare
