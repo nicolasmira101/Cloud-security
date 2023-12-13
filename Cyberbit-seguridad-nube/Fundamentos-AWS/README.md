@@ -158,31 +158,217 @@
 
 ## AWS Storage
 
+<p align="center">
+  <img src="https://k21academy.com/wp-content/uploads/2020/08/type-of-storage.png"/>
+</p>
+
 ## AWS Networking
 
-- Grupos de seguridad, ACL
-- Direcciones IP
-- VPC
-- Subredes
-- LB y ELB
-- Internet Gateway (IGW)
-  
+- **Aspectos generales**
+  + AWS Networking permite configurar reglas de enrutamiento para dirigir el tráfico dentro y fuera de la VPC.
+  + Se pueden implementar configuraciones redundantes y escalables para asegurar alta disponibilidad.
+  + Los mecanismos como grupos de seguridad, ACL y configuraciones de VPC permiten un control sobre la seguridad y el acceso a los recursos de red.
+    
+- **Grupos de Seguridad**
+  + Funcionan a nivel de instancia EC2 y actúan como cortafuegos virtuales.
+  + Permiten definir reglas de tráfico entrante y saliente basadas en puertos, protocolos y direcciones IP.
+
+- **Listas de Control de Acceso (ACL)**
+  + Se aplican a los subnets de una VPC y actúan como filtros de tráfico para controlar el acceso.
+  + Permiten definir reglas para permitir o denegar tráfico basado en direcciones IP o rangos de puertos.
+
+- **Direcciones IP**
+  + Las instancias EC2 tienen direcciones IP privadas (dentro de la VPC) y públicas (para acceso desde internet).
+  + AWS asigna direcciones IP automáticamente o puedes tener direcciones IP elásticas para persistencia.
+ 
+- **VPC (Virtual Private Cloud)**
+  + Es un entorno de red virtual aislado y configurable en AWS.
+  + Permite definir rangos de direcciones IP, subredes, tablas de ruteo y gateways para las instancias desplegadas.
+  + Las subredes dividen una VPC en segmentos más pequeños con su propio rango de direcciones IP.
+
+- **Load Balancing (LB)**
+  + Distribuye el tráfico de red entre varias instancias EC2 para mejorar la disponibilidad y la escalabilidad.
+  + Equilibra la carga para asegurar un uso uniforme de recursos.
+
+- **Elastic Load Balancing (ELB)**
+  + Un servicio de AWS que proporciona balanceo de carga automáticamente y de forma escalable.
+  + Hay tres tipos: Classic Load Balancer, Application Load Balancer y Network Load Balancer, cada uno con diferentes funcionalidades y usos.
+
+- **Internet Gateway (IGW)**
+  + Permite la comunicación entre una VPC y el internet público.
+  + Proporciona una ruta para el tráfico entrante y saliente hacia y desde la VPC.
+
+<p align="center">
+  <img src="https://d1.awsstatic.com/getting-started-guides/vpc-with-nat.7ad78b23ba91be288afdf8a0d836820add439d44.png"/>
+</p>
+
 ## Identities and Secure Access
 
-- IAM (usuarios IAM, usuario raiz, grupos, funciones)
-- Directivas de IAM
-- Usuarios de terceros (ldp) (Amazon Cognito, AD)
+- **Aspectos generales**
+  + IAM proporciona una capa de seguridad crucial al controlar el acceso a los recursos de AWS.
+  + Facilita la administración centralizada de identidades y permisos.
+  + IAM permite el seguimiento de actividades y eventos a través de logs para identificar y revisar cambios o intentos de acceso no autorizados.
+  + Puede integrarse con servicios de identidad existentes y ofrece flexibilidad para asignar y revocar permisos según sea necesario.
+
+- **Usuarios IAM**
+  + Representan personas o servicios que interactúan con AWS.
+  + Cada usuario tiene credenciales únicas y asignación de permisos.
+
+- **Usuario raiz**
+  + Es el primer usuario creado al configurar una cuenta de AWS.
+  + Tiene acceso completo a todos los recursos y servicios de la cuenta.
+
+- **Grupos**
+  + Permiten agrupar usuarios para asignarles políticas comunes.
+  + Simplifican la administración de permisos al asignar políticas de grupo en lugar de individualmente a cada usuario.
+
+- **Funciones**
+  + Son entidades que definen roles temporales para usuarios, aplicaciones o servicios.
+  + Se utilizan para delegar permisos de manera temporal o dentro de un servicio.
+ 
+- **Control de acceso granular**
+  + Son documentos JSON que definen qué acciones pueden realizar los usuarios y sobre qué recursos.
+  + Permiten especificar condiciones para controlar el acceso más detalladamente.
+  + Se aplican a usuarios, grupos o roles.
+
+- **Amazon Cognito**
+  + Un servicio que gestiona la autenticación, autorización y administración de usuarios para aplicaciones web y móviles.
+  + Permite la autenticación con proveedores de identidad externos (como Google, Facebook).
+
+- **Active Directory**
+  + Puede integrarse con AWS para permitir la gestión de identidades desde un directorio activo existente.
+  + Permite la federación de identidades entre el directorio AD local y los servicios de AWS.
+
+<p align="center">
+  <img src="https://digitalcloud.training/wp-content/uploads/2022/01/IAM-1.jpg"/>
+</p>
 
 ## Monitoring and Management
 
-- Supervisión
-- CloudTrail
-- Monitorización EC2
-- CloudWatch
+- **Supervisión en AWS**
+  + AWS ofrece herramientas para supervisar el rendimiento y el estado de los recursos en tiempo real.
+  + Esto incluye monitoreo de instancias EC2, almacenamiento, bases de datos y más.
+    
+- ** AWS CloudTrail**
+  + CloudTrail realiza un seguimiento de las actividades y acciones realizadas dentro de una cuenta de AWS.
+  + Registra eventos como creación de recursos, cambios de configuración y accesos a recursos.
+  + Ayuda en la auditoría y el cumplimiento de normativas al proporcionar un registro detallado de actividades.
+    
+- **Monitorización EC2**
+  + Permite monitorear el estado de las instancias EC2, incluyendo CPU, memoria, red, etc.
+  + Proporciona métricas detalladas sobre el rendimiento de las instancias.
+    
+- ** Amazon CloudWatch**
+  + CloudWatch ofrece monitoreo y alertas para recursos y aplicaciones en AWS.
+  + Permite crear dashboards personalizados para visualizar métricas y eventos clave.
+  + Permite configurar alarmas para responder a cambios en las métricas (por ejemplo, aumentar la capacidad si la carga aumenta).
+  + Integra el autoescalado para ajustar automáticamente la capacidad en función de las métricas de CloudWatch.
 
  ## CloudFormation
 
- - Ejemplo de una plantilla
- - Pros y contras
+- CloudFormation es una herramienta poderosa para definir y gestionar infraestructura en AWS de manera automatizada y controlada.
+- CloudFormation permite realizar cambios en la infraestructura existente de manera controlada y predecible, facilitando las actualizaciones.
+- Permite la reutilización de plantillas y la creación de plantillas anidadas para una gestión más modular y escalable de la infraestructura.
+- Se integra bien con herramientas de automatización y despliegue continuo (CI/CD), facilitando el despliegue de infraestructura como parte de un flujo de trabajo de DevOps.
+   
+- **Plantilla de ejemplo**
 
-## Riesgos Lambda
+```
+{
+   "AWSTemplateFormatVersion": "2010-09-09",
+   "Description": "Ejemplo de una plantilla de CloudFormation",
+   "Resources": {
+      "MyEC2Instance": {
+         "Type": "AWS::EC2::Instance",
+         "Properties": {
+            "ImageId": "ami-12345678",
+            "InstanceType": "t2.micro"
+         }
+      },
+      "MyS3Bucket": {
+         "Type": "AWS::S3::Bucket",
+         "Properties": {
+            "BucketName": "mi-bucket-s3"
+         }
+      }
+   }
+}
+```
+
+- Permite la definición y despliegue automatizado de recursos en AWS mediante código.
+- Facilita la gestión y el control de la infraestructura como código, lo que simplifica la replicabilidad y el control de versiones.
+- Gestiona las relaciones y dependencias entre los recursos, asegurando un despliegue coherente y ordenado.
+- Puede requerir tiempo para dominar la creación de plantillas complejas.
+- Algunas configuraciones avanzadas pueden ser complicadas de manejar o no están disponibles directamente en CloudFormation
+
+<p align="center">
+  <img src="https://docs.aws.amazon.com/images/AWSCloudFormation/latest/UserGuide/images/update-stack-diagram.png"/>
+</p>
+
+## Riesgos AWS Lambda
+
+- **Inyección de Código Malicioso**
+  + Escenario: Un atacante intenta inyectar código malicioso en la función Lambda para obtener acceso no autorizado o realizar acciones destructivas.
+  + Ejemplo: Un payload manipulado se introduce en la función Lambda, lo que permite ejecutar comandos no autorizados en el entorno de ejecución.
+
+- **Privilegios Excesivos o Inadecuados**
+  + Escenario: Configuración incorrecta de permisos en la función Lambda que otorgan más privilegios de los necesarios.
+  + Ejemplo: La función Lambda tiene acceso a recursos sensibles como bases de datos o almacenamiento, lo que podría comprometer datos confidenciales si se ve comprometida.
+    
+- **Fugas de Información Sensible**
+  + Escenario: La función Lambda maneja datos confidenciales sin la debida protección.
+  + Ejemplo: Una función Lambda mal configurada imprime información sensible en logs, exponiendo inadvertidamente datos como contraseñas o claves de API.
+
+- **Ataques de Denegación de Servicio (DDoS)**
+  + Escenario: Una función Lambda mal diseñada podría ser vulnerable a ataques que sobrecarguen su capacidad de manejar solicitudes.
+  + Ejemplo: Un atacante envía un gran volumen de solicitudes a una función Lambda, lo que provoca una saturación y una interrupción en el servicio.
+
+- **Vulnerabilidades en Dependencias**
+  + Escenario: Uso de librerías o dependencias no actualizadas o con vulnerabilidades conocidas.
+  + Ejemplo: Una función Lambda utiliza una biblioteca de terceros con una vulnerabilidad conocida que permite a un atacante explotar la función.
+    
+- **Ejecución de código sin Supervisión**
+  + Escenario: Falta de monitoreo adecuado sobre las funciones Lambda en producción.
+  + Ejemplo: Una función Lambda mal optimizada consume recursos excesivos o se bloquea, lo que afecta otras funciones o servicios que dependen de ella.
+
+- **Falta de Seguimiento y Auditoría**
+  + Escenario: Ausencia de registros (logs) o auditoría sobre las acciones realizadas por las funciones Lambda.
+  + Ejemplo: Una función Lambda comprometida realiza acciones sin dejar rastro, dificultando la identificación del origen del ataque.
+
+- **Manipulación de Entrada**
+  + Escenario: Falta de validación de entradas en las funciones Lambda, lo que permite la manipulación de datos.
+  + Ejemplo: Un atacante manipula los datos de entrada para sobrecargar la función o causar un comportamiento inesperado.
+
+- **Escenario Black Box**
+
+<p align="center">
+  <img src="https://sysdig.com/wp-content/uploads/vuln_lambda_mitre_03-1.png"/>
+</p>
+
+- El atacante encuentra un cubo S3 mal configurado con archivos de la empresa expuestos públicamente.
+- Usando una función Lambda desconocida, el atacante sube archivos y encuentra etiquetas dinámicas.
+- Realiza pruebas cargando archivos para observar la adición automática de etiquetas.
+- Manipula nombres de archivos para ejecutar comandos remotos en la función Lambda.
+- Aprovecha la falta de validación para extraer credenciales de AWS.
+- Utiliza las credenciales obtenidas para acceder y evaluar privilegios dentro de la cuenta en la nube.
+  
+- **Escenario White Box**
+
+<p align="center">
+  <img src="https://sysdig.com/wp-content/uploads/vuln_lambda_mitre_05-1-2.png"/>
+</p>
+
+- El atacante accede al entorno en la nube mediante credenciales robadas por phishing.
+- El usuario comprometido tiene acceso de solo lectura en la cuenta.
+- Se verifica la validez de las credenciales y se evalúan los privilegios del usuario comprometido.
+- Al tener solo acceso de lectura, se recolecta información sobre los recursos existentes, enfocándose en el cubo S3 mal configurado.
+- Se asume la presencia de una función Lambda para el cubo S3 encontrado. Se busca más información sobre esta función.
+- Se identifica la función "corpFuncEasy" y se accede a detalles críticos, incluyendo el código fuente.
+- Se descubre que el código no valida correctamente los nombres de archivo, lo que lleva a una vulnerabilidad.
+- Aprovechando la falta de validación, se insertan comandos adicionales en el nombre de archivo, ejecutando comandos maliciosos con éxito.
+
+- **Medidas de mitigación**
+  + Limitar el acceso público al bucket S3, restringiéndolo a usuarios autenticados dentro de la cuenta de AWS para evitar accesos no deseados.
+  + Asegurarse de que el código implementado en la función Lambda siga las mejores prácticas de seguridad para evitar vulnerabilidades.
+  + Validar la entrada de usuario para prevenir la ejecución de comandos maliciosos.
+  + Utilizar IAM para asignar permisos de acceso precisos y limitados a los recursos de AWS, reduciendo las posibles rutas de escalada de privilegios.
