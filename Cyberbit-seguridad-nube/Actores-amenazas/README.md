@@ -1,5 +1,20 @@
 # Actores de amenazas
 
+## APT35
+
+- APT35, también conocido como Charming Kitten o Fósforo, ha estado presente desde 2014.
+- Realizaron una campaña de espionaje a través de las redes sociales, una de las más sofisticadas, organizadas por actores iraníes.
+- En 2019, apuntaron a instituciones académicas en EE. UU., Francia y el Medio Oriente.
+- En 2020, se dirigieron a organizaciones de investigación médica en Israel y EE. UU.
+- En 2021, abusaron de las vulnerabilidades del servidor Microsoft Exchange (ProxyShell).
+- Charming Kitten atacó a investigadores médicos, particularmente en oncología, genética y neurología, usando phishing con temas sensibles.
+- Han realizado campañas altamente dirigidas, como "BadBlood", utilizando temas sensibles como armas nucleares de Israel.
+- Han atacado a periodistas y activistas que informan sobre temas en el Medio Oriente.
+- Utilizan backdoors PowerShell como PowerLess Backdoor para ejecutar comandos.
+- Explotaron la vulnerabilidad Log4Shell/Log4j en enero de 2022, aprovechando la situación antes de que las organizaciones parcharan sus sistemas afectados.
+- Recientemente, se observó a Charming Kitten usando Hyperscrape para extraer correos electrónicos.
+- Hyperscrape se utiliza para recolectar información de disidentes iraníes y se ha descubierto que descarga datos de Google TakeOut.
+  
 ## Lockbit
 
 <p align="center">
@@ -20,21 +35,6 @@
 <p align="center">
   <img src="https://socradar.io/wp-content/uploads/2023/04/lockbit-operation-scheme.png"/>
 </p>
-
-## APT35
-
-- APT35, también conocido como Charming Kitten o Fósforo, ha estado presente desde 2014.
-- Realizaron una campaña de espionaje a través de las redes sociales, una de las más sofisticadas, organizadas por actores iraníes.
-- En 2019, apuntaron a instituciones académicas en EE. UU., Francia y el Medio Oriente.
-- En 2020, se dirigieron a organizaciones de investigación médica en Israel y EE. UU.
-- En 2021, abusaron de las vulnerabilidades del servidor Microsoft Exchange (ProxyShell).
-- Charming Kitten atacó a investigadores médicos, particularmente en oncología, genética y neurología, usando phishing con temas sensibles.
-- Han realizado campañas altamente dirigidas, como "BadBlood", utilizando temas sensibles como armas nucleares de Israel.
-- Han atacado a periodistas y activistas que informan sobre temas en el Medio Oriente.
-- Utilizan backdoors PowerShell como PowerLess Backdoor para ejecutar comandos.
-- Explotaron la vulnerabilidad Log4Shell/Log4j en enero de 2022, aprovechando la situación antes de que las organizaciones parcharan sus sistemas afectados.
-- Recientemente, se observó a Charming Kitten usando Hyperscrape para extraer correos electrónicos.
-- Hyperscrape se utiliza para recolectar información de disidentes iraníes y se ha descubierto que descarga datos de Google TakeOut.
   
 ## Lazarus
 
