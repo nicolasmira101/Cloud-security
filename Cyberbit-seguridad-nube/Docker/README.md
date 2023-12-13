@@ -47,7 +47,7 @@
 - Las instrucciones pueden incluir la instalación de paquetes, la configuración del entorno, la copia de archivos y la definición de comandos a ejecutar al iniciar el contenedor.
 - Las imágenes en Docker están compuestas por múltiples capas. Cada capa representa un cambio o adición al sistema de archivos.
 - Las capas son de solo lectura y se superponen para formar la imagen final.
-- 
+ 
 <p align="center">
   <img src="https://lh6.googleusercontent.com/H8mhf23JNy-zCPrLaNs_H4h6K1xLRHv-P0JS4_Ad86xSo7En4tLT3POuOJPrcBNXG5lWDy2Y6fdNzRrzoB9SSLxrHhwrdk-qO28__D19NzO01OkkyBdr7YzZo2K_46HidAoUpmxeW2FOF42uOtAg3Pnfe_gcWafYs7xYywgdFeRdK3kV-p7LfIY7Z9h9tg"/>
 </p>
