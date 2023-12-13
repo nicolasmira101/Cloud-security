@@ -29,3 +29,5 @@
 - Horde webmail 5.2.22
 
 ## 7-Zip Zero-Day
+
+## Spectre Vulnerability
