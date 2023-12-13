@@ -184,3 +184,5 @@
 
  - Ejemplo de una plantilla
  - Pros y contras
+
+## Riesgos Lambda
