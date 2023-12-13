@@ -13,3 +13,5 @@
 ## Introduction to Windows Credentials and Credentials Dumping
 
 ## Introduction to Mimikatz
+
+## Malicious use of Registry
