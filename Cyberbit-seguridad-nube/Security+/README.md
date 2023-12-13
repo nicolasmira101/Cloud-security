@@ -4,9 +4,11 @@
 
 ## Security+ Lesson 15B: Cloud Security Solutions
 
-## Threat Actors & Attack Surface
+## Lesson 2A: Threat Actors & Attack Surface
 
-## Threat Intelligence
+## Lesson 2B: Threat Intelligence
+
+## Lesson 2B: Attack Frameworks and Indicator Management
 
 
 
