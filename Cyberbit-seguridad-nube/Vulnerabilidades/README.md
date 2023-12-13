@@ -33,3 +33,7 @@
 ## Spectre Vulnerability
 
 ## Nimbuspwn
+
+## Uber Ride with Teapot
+
+## Exchange ProxyNotShell
