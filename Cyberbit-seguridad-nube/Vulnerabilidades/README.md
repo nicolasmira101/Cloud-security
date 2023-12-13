@@ -41,3 +41,5 @@
 ## Adversary in the Middle  
 
 ## Event Viewer Blinders
+
+## CVE-2023-2339 Outlook - out    
