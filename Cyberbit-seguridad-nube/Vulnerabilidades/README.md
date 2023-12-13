@@ -43,3 +43,7 @@
 ## Event Viewer Blinders
 
 ## CVE-2023-2339 Outlook - out    
+
+## KeePass Master Password Dumper (or CVE-2023-32784)
+
+## The MOVEit Transfer vulnerability, CVE-2023-3436
