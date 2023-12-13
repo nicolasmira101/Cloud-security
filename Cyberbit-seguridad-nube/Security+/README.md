@@ -10,5 +10,9 @@
 
 ## Lesson 2B: Attack Frameworks and Indicator Management
 
+## Lesson 18A: Digital Forensics Documentation
+
+## Lesson 18B: Digital Forensics Evidence Acquisition
+
 
 
