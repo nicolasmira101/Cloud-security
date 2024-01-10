@@ -201,7 +201,53 @@
     
 ## Lesson 18A: Digital Forensics Documentation
 
+- **Informática Forense**
+  + Proceso de recopilación, análisis y preservación de evidencia electrónica para investigar y prevenir ciberdelitos.
+  + Involucra la examinación de dispositivos digitales, redes y datos para descubrir rastros de actividades maliciosas.
+- **Evidencia**
+  + La evidencia digital incluye archivos, registros, correos electrónicos y otros artefactos electrónicos.
+  + La evidencia admisible debe ser relevante, auténtica y obtenida legalmente.
+- **Documentación y Admisibilidad**
+  + Una documentación adecuada es crucial para mantener la integridad de la investigación.
+  + La admisibilidad depende de cumplir con estándares legales y garantizar la Cadena de Custodia.
+- **Debido proceso**
+  + Adherencia a procedimientos legales y respeto de los derechos individuales durante investigaciones digitales.
+  + Asegura la credibilidad y legitimidad del proceso forense.
+- **Orden Legal de Conservación (Legal Hold)**
+  + Proceso de preservar y proteger evidencia potencial de alteraciones o eliminación.
+  + Implementado para cumplir con requisitos legales y prevenir la destrucción intencional.
+- **Cadana de custodio**
+  + Un rastro documentado que registra la manipulación y transferencia de evidencia desde su recolección hasta su presentación en la corte.
+  + Esencial para establecer la confiabilidad de la evidencia en procedimientos legales.
+- **Informes de Informática Forense**
+  + Documentación integral que resume toda la investigación forense digital.
+  + Incluye hallazgos, análisis, metodologías, herramientas utilizadas y conclusiones.
+  + Los informes deben ser claros, concisos y adecuados para audiencias técnicas y no técnicas. 
+- **E-Discovery**
+  + Proceso de identificación, recopilación y preservación de información almacenada electrónicamente (ESI) para casos legales.
+  + Involucra el uso de herramientas especializadas para buscar, filtrar y presentar evidencia digital relevante.
+- **Entrevistas a Testigos y Grabaciones de Video**
+  + Realización de entrevistas con personas involucradas o relevantes para la investigación.
+  + Las entrevistas en video ayudan a capturar señales no verbales, mientras que las notas detalladas documentan información verbal.
+  + Asegura una comprensión integral del incidente y ayuda a corroborar evidencia digital.
+- **Líneas de tiempo**
+  + Representación gráfica de eventos que ayuda a los investigadores entender el orden cronológico de los incidentes.
+  + Facilita la identificación de patrones y relaciones.
+  + Ajuste por diferencias de tiempo entre sistemas para sincronizar las líneas de tiempo de eventos de manera precisa.
+  + Fundamental para la reconstrucción de la secuencia de eventos durante un incidente.
+  + Reconocimiento de la posibilidad de manipulación de relojes o marcas de tiempo del sistema.
+  + Implementación de medidas para detectar y mitigar riesgos de manipulación.
+- **Logs y tráfico de red**
+  + Análisis de registros de sistema y tráfico de red en busca de rastros de acceso no autorizado o actividades maliciosas.
+  + Los logs proporcionan un registro cronológico de eventos, facilitando la reconstrucción de incidentes.
+- **Inteligencia Estratégica y Contrainteligencia**
+  + Utilización de la recopilación de inteligencia para defender proactivamente contra amenazas cibernéticas.
+  + La contrainteligencia implica identificar y mitigar riesgos planteados por actores maliciosos.
+  + La inteligencia estratégica guía la toma de decisiones para mejorar la postura general de ciberseguridad.
+    
 ## Lesson 18B: Digital Forensics Evidence Acquisition
 
+-
+-
 
 
