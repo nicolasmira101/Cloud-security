@@ -144,10 +144,11 @@
   + Visualizaciones que representan el panorama de amenazas, mostrando actores, campañas, vectores de ataque y relaciones entre ellos.
 
 <p align="center">
-  <img src="https://www.flashpoint-intel.com/wp-content/uploads/2021/02/Blog_Graphic_The-Five-Stages-of-the-Cyber-Threat-Intelligence-Lifecycle-.png"/>
+  <img src="https://www.silobreaker.com/wp-content/uploads/2023/06/Threat-Intel-Cycle-Wheel-Graphic-1024x629.png"/>
 </p>
 
 ## Lesson 2B: Attack Frameworks and Indicator Management
+
 
 ## Lesson 18A: Digital Forensics Documentation
 
