@@ -29,6 +29,49 @@
 
 ## Security+ Lesson 15B: Cloud Security Solutions
 
+- **Integración y Auditoría de la Seguridad en la Nube**
+  + Identidad y acceso: Asegurar que solo los usuarios autorizados tengan acceso a los recursos de la nube.
+  + Seguridad de la red: Proteger el tráfico de red entre la nube y tu infraestructura local.
+  + Seguridad del almacenamiento: Proteger los datos almacenados en la nube.
+  + La auditoría de la configuración y actividad de la nube es esencial para identificar y corregir las vulnerabilidades de seguridad.
+- **Controles de Seguridad en la Nube**
+  + Los controles de seguridad en la nube son las medidas que se implementan para proteger los recursos de la nube.
+  + Preventivos: Disuaden o evitan que se produzcan ataques. Por ejemplo, el cifrado de datos.
+  + Detectivos: Detectan los ataques que han tenido éxito. Por ejemplo, el monitoreo de eventos de seguridad.
+  + Correctivos: Recuperan los sistemas afectados por un ataque. Por ejemplo, la restauración de copias de seguridad.
+- **Seguridad de la Computación en la Nube**
+  + Las instancias de máquinas virtuales (VM) y los contenedores son los recursos de computación más comunes en la nube.
+  + Seguridad de la imagen: Asegurar que la imagen de la VM o el contenedor esté libre de vulnerabilidades.
+  + Seguridad de la configuración: Asegurar que la configuración de la VM o el contenedor sea segura.
+  + Seguridad de los usuarios y permisos: Asegurar que solo los usuarios autorizados tengan acceso a la VM o el contenedor.
+- **Seguridad del Almacenamiento en la Nube**
+  + Los datos almacenados en la nube son un objetivo atractivo para los atacantes.
+  + Cifrado: Cifrar todos los datos almacenados en la nube.
+  + Control de acceso: Asegurar que solo los usuarios autorizados tengan acceso a los datos.
+  + Auditoría de registros: Auditar los registros de acceso a los datos para detectar actividad sospechosa.
+- **Alta Disponibilidad**
+  + Es la capacidad de un sistema para continuar funcionando incluso en caso de fallas.
+  + Redundancia: Tener recursos redundantes para que puedan asumir el control en caso de falla.
+  + Recuperación ante desastres: Tener un plan de recuperación ante desastres para restaurar los sistemas en caso de una falla catastrófica.
+  + Balanceo de carga: Distribuir el tráfico entre varios recursos para mejorar el rendimiento y la disponibilidad.
+- **Seguridad de la Red en la Nube**
+  + La red es la infraestructura que conecta los recursos de la nube entre sí y con el mundo exterior.
+  + Firewalls: Filtrar el tráfico de red para bloquear el tráfico no autorizado.
+  + VPN: Proporcionar acceso seguro a la red desde dispositivos remotos.
+  + Análisis de tráfico de red: Monitorear el tráfico de red para detectar actividad sospechosa.
+- **Puntos Finales VPC**
+  + Son recursos de red que permiten conectar de forma segura recursos dentro de una VPC con servicios de AWS sin necesidad de un internet gateway público.
+  + Los puntos finales VPC pueden ayudar a mejorar la seguridad y el control del tráfico de red.
+- **Seguridad de Firewalls en la Nube**
+  + Los firewalls son dispositivos de seguridad que filtran el tráfico de red.
+  + Los firewalls en la nube pueden ayudar a proteger los recursos de la nube de ataques entrantes.
+- **Grupos de Seguridad**
+  + Son reglas que controlan el acceso a las instancias de una VPC.
+  + Los grupos de seguridad pueden ayudar a aumentar la seguridad granular de la red cloud.
+- **Agente de Seguridad de Acceso a la Nube (CASB)**
+  + Los CASB son soluciones de seguridad que ayudan a controlar el uso de aplicaciones en la nube por parte de los usuarios.
+  + Los CASB pueden ayudar a prevenir la fuga de datos y proteger contra amenazas cloud-based.
+    
 ## Lesson 2A: Threat Actors & Attack Surface
 
 ## Lesson 2B: Threat Intelligence
