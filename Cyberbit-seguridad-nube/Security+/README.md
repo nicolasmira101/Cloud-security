@@ -149,7 +149,56 @@
 
 ## Lesson 2B: Attack Frameworks and Indicator Management
 
+- **Investigación de amenazas (Pirámide del Dolor CTI)**
+  + La investigación de amenazas es el proceso de recopilar, analizar y compartir información sobre las amenazas cibernéticas.
+  + El objetivo de la investigación de amenazas es mejorar la comprensión de las amenazas, lo que puede ayudar a las organizaciones a protegerse mejor contra ellas.
+  + La pirámide del dolor CTI (Cyber Threat Intelligence) es un marco conceptual que ayuda a clasificar la información de inteligencia de amenazas según su valor y la dificultad para cambiarla por parte de los adversarios.
+  + Esta pirámide tiene tres niveles: indicadores, tácticas, técnicas y procedimientos (TTPs), y contexto.
+  + Los indicadores son datos específicos, como direcciones IP o hashes, que pueden cambiar fácilmente.
+  + Las tácticas, técnicas y procedimientos son patrones de comportamiento de los atacantes
+  + El contexto proporciona información sobre las motivaciones y objetivos de los adversarios.
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/D4D12AQGd2YCEuIl21Q/article-inline_image-shrink_1500_2232/0/1674720822041?e=1709769600&v=beta&t=J2_QT7czQGiy22QBXS0LYKV-ddnpkBxIZxHcXS9Mu80"/>
+</p>
 
+- **Cyber Kill Chain**
+  +  Es un modelo que describe las fases secuenciales que un adversario sigue para llevar a cabo un ataque.
+  +  Reconnaissance: El atacante recopila información sobre el objetivo.
+  + Intrusion: El atacante entra en el sistema del objetivo.
+  + Exploitation: El atacante explota una vulnerabilidad para obtener acceso a los sistemas del objetivo.
+  + Installation: El atacante instala malware o software malicioso en los sistemas del objetivo.
+  + Command and Control: El atacante controla el malware o el software malicioso a través de un servidor de comando y control.
+  + Actions on Objectives: El atacante realiza acciones en los sistemas del objetivo, como robar datos o interrumpir las operaciones.
+  +  Comprender estas etapas ayuda a las organizaciones a desarrollar estrategias para prevenir, detectar y responder a los ataques en cada fase.
+<p align="center">
+  <img src="https://seqred.pl/wp-content/uploads/2020/08/cyber-kill-chain-process.png"/>
+</p>  
+
+- **MITRE ATT&CK**
+  + MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) es un marco de trabajo que describe las TTP utilizados por los atacantes en cada fase del ciclo de vida del ataque.
+  + Organizado en matrices, proporciona un panorama completo de las acciones que los adversarios pueden llevar a cabo.
+  + Permite a los profesionales de seguridad comprender y mejorar sus defensas.
+  + El marco se divide en 14 grupos de tácticas y más de 300 técnicas.
+- **Diamond Model of Intrusion Analysis**
+  + Este modelo se basa en cuatro componentes: adversario, infraestructura, capacidad y víctima.
+  + Ayuda a los analistas a entender las relaciones entre estos elementos y a analizar intrusiones desde una perspectiva más holística.
+  + La idea central es ver cómo un adversario selecciona sus objetivos, utiliza ciertas capacidades y aprovecha la infraestructura para afectar a una víctima.
+  + Context: El contexto del ataque, que incluye la información sobre el objetivo, el atacante y el entorno.
+  + Indicators: Los indicadores de ataque, que son las evidencias de un ataque.
+  + Observables: Los observables, que son los datos que se pueden recopilar de un sistema o red.
+  + Hypotheses: Las hipótesis, que son las posibles explicaciones de un ataque.
+<p align="center">
+  <img src="https://uploads-us-west-2.insided.com/cymulate-en/attachment/4d11266f-8ee0-4855-aabb-9b40f89e73d9.png"/>
+</p>  
+    
+- **STIX, TAXII, OpenIOC, MISP**
+  + Son formatos de intercambio de información de inteligencia de amenazas.
+  + Estos formatos se utilizan para compartir información de inteligencia de amenazas entre diferentes organizaciones.
+  + STIX: es un formato estándar para representar información de inteligencia de amenazas.
+  + TAXII: es un protocolo de transferencia de datos para STIX.
+  + OpenIOC: es un formato abierto para representar información de inteligencia de amenazas.
+  + MISP: es un sistema de gestión de información de seguridad (SIEM) que admite STIX, TAXII y OpenIOC.
+    
 ## Lesson 18A: Digital Forensics Documentation
 
 ## Lesson 18B: Digital Forensics Evidence Acquisition
