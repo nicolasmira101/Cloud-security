@@ -109,7 +109,43 @@
   + Ataques de fuerza bruta: Intentos repetidos de adivinar una contraseña o clave.
   + Inyección de código: Inserción de código malicioso en un sistema o red.
 
+<p align="center">
+  <img src="https://www.cloudflare.com/resources/images/slt3lc6tev37/oUd084IG6Zq2dW6mI1TT7/891a2c62bec90326d560326e8790a5ed/what_is_an_attack_vector.png"/>
+</p>
+
 ## Lesson 2B: Threat Intelligence
+
+- **Fuentes de Investigación sobre Amenazas**
+  + Foros de Hackers: Sitios web clandestinos donde los hackers comparten información sobre vulnerabilidades, exploits y herramientas. Ejemplo: "ExploitDB".
+  + Blogs de Seguridad: Fuentes de noticias e investigación mantenidas por expertos en seguridad, informando sobre amenazas emergentes y análisis de ataques. Ejemplo: "Krebs on Security".
+  + Informes de Amenazas: Documentos publicados por organizaciones de seguridad o investigadores individuales con detalles sobre campañas de amenazas específicas y recomendaciones de mitigación. Ejemplo: "Verizon Data Breach Investigations Report".
+- **Deep Web**
+  + Una parte oculta de Internet que no indexa por los buscadores habituales.
+  + Contiene contenido legal e ilegal, como mercados negros y foros clandestinos.
+  + Anonimato, alto riesgo de encontrar malware y contenido ilícito.
+- **Proveedores de Inteligencia de Amenazas**
+  + Datos de Comportamiento: Analizan patrones de actividad maliciosa para detectar amenazas. Ejemplo: ThreatQuotient, Palo Alto Networks.
+  + Datos de Reputación: Asignan puntuaciones de riesgo a IPs, dominios y URLs. Ejemplo: PhishTank, Cisco Talos.
+  + Datos de Amenazas: Proveen acceso a información sobre vulnerabilidades, exploits, campañas de malware y actores maliciosos. Ejemplo: Recorded Future, Mandiant.
+  + SIEM (Sistemas de Gestión de Información y Eventos de Seguridad): Recolectan y analizan datos de seguridad de múltiples fuentes para identificar amenazas. Ejemplo: ArcSight, Splunk.
+- **Modelos Comerciales de Inteligencia de Amenazas**
+  + Freemium: Acceso básico gratuito con características limitadas, pago por funciones avanzadas.
+  + Suscripción: Pago mensual o anual por acceso completo a los servicios.
+  + Consultoría: Servicios profesionales de análisis de amenazas e implementación de soluciones.
+- **IoC (Indicadores de Compromiso)**
+  + Evidencias observables de una intrusión o actividad maliciosa.
+  + IP maliciosa, URL con phishing, hash de malware, comportamiento de red sospechoso.
+- **Fuentes de Datos de Amenazas**
+  + Oasis: Estándar abierto para compartir IoC entre organizaciones.
+  + STIX (Structured Threat Information eXchange): Lenguaje formal para representar información sobre amenazas.
+  + TAXII (Threat Actor Exchange Indicator Information): Protocolo para el intercambio de IoC y STIX.
+  + AIS (Automated Indicator Sharing): Sistema automatizado para compartir IoC en tiempo real.
+- **Mapas de Amenazas**
+  + Visualizaciones que representan el panorama de amenazas, mostrando actores, campañas, vectores de ataque y relaciones entre ellos.
+
+<p align="center">
+  <img src="https://www.flashpoint-intel.com/wp-content/uploads/2021/02/Blog_Graphic_The-Five-Stages-of-the-Cyber-Threat-Intelligence-Lifecycle-.png"/>
+</p>
 
 ## Lesson 2B: Attack Frameworks and Indicator Management
 
