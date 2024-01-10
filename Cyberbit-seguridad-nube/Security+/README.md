@@ -74,6 +74,41 @@
     
 ## Lesson 2A: Threat Actors & Attack Surface
 
+- **Vulnerabilidad, Amenaza, Riesgo y Control**
+  + Vulnerabilidad: Un defecto o debilidad en un sistema, red o aplicación que puede ser explotada por un atacante.
+  + Amenaza: Un actor, evento o circunstancia con el potencial de causar daño a un activo.
+  + Riesgo: La probabilidad de que una amenaza se materialice y cause un daño.
+  + Control: Una medida o acción que se implementa para mitigar el riesgo.
+- **Atributos de los Actores de la Amenaza**
+  + Intención: El propósito del atacante. Puede ser por diversión, robo, sabotaje, etc.
+  + Motivación: La razón por la que el atacante quiere lograr su intención. Puede ser ideológica, financiera o personal.
+  + Sofisticación: El nivel de conocimiento y experiencia del atacante. Puede ir desde script kiddies hasta hackers expertos.
+  + Capacidad: Los recursos técnicos y humanos del atacante.
+  + Financiación: El dinero o los recursos que el atacante tiene a su disposición.
+- **Tipos de Hackers**
+  + Los hackers se pueden clasificar en diferentes tipos según su intención, motivación y sofisticación.
+  + Script kiddies: Hackers novatos que usan herramientas automatizadas para realizar ataques simples.
+  + Hacktivistas: Hackers con motivaciones ideológicas que utilizan sus habilidades para protestar o causar daños.
+  + Cibercriminales: Hackers que realizan ataques con fines lucrativos, como robar datos o dinero.
+  + Actores estatales: Hackers patrocinados por gobiernos que llevan a cabo ataques para recopilar inteligencia o realizar operaciones de espionaje.
+  + APT: Amenazas Persistentes Avanzadas son ataques dirigidos por actores estatales que suelen estar dirigidos a objetivos específicos, como sistemas gubernamentales o empresas críticas.
+- **Actores de Amenaza Interna**
+  + Son empleados o individuos con acceso privilegiado a un sistema o red que podrían abusar de su posición para realizar ataques.
+  + Estos ataques pueden ser tan o más peligrosos que los ataques externos, ya que el atacante tiene un conocimiento íntimo del sistema o red.
+- **Superficie de Ataque**
+  + Es el conjunto de todos los puntos de entrada potenciales a un sistema o red.
+  + Cuanto mayor sea la superficie de ataque, más vulnerable será el sistema o red.
+  + Sistemas: Servidores, ordenadores, dispositivos móviles, etc.
+  + Puertos: Puertos de red abiertos que pueden ser utilizados por atacantes.
+  + Aplicaciones: Aplicaciones web, aplicaciones móviles, etc.
+  + Dispositivos: Dispositivos conectados a la red, como impresoras, cámaras, etc.
+- **Vectores de Ataque**
+  + Son los medios que utilizan los atacantes para acceder a un sistema o red.
+  + Phishing: Envío de mensajes de correo electrónico fraudulentos que intentan engañar a los usuarios para que revelen información confidencial.
+  + Vulnerabilidades de software: Debilidades en el software que pueden ser explotadas por atacantes.
+  + Ataques de fuerza bruta: Intentos repetidos de adivinar una contraseña o clave.
+  + Inyección de código: Inserción de código malicioso en un sistema o red.
+
 ## Lesson 2B: Threat Intelligence
 
 ## Lesson 2B: Attack Frameworks and Indicator Management
