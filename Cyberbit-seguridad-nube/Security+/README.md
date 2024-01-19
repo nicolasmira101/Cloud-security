@@ -247,7 +247,49 @@
     
 ## Lesson 18B: Digital Forensics Evidence Acquisition
 
--
--
+- **Orden de volatilidad**
+  + La evidencia digital se deteriora a diferentes velocidades según su volatilidad.
+  + Los datos más volátiles desaparecen con el apagado de la alimentación (registradores, caché de memoria).
+  + Los datos menos volátiles persisten entre reinicios (datos de disco).
+  + La adquisición sigue este orden, dando prioridad a las fuentes más volátiles primero.
+- **Proceso de adquisición**
+  + Planificación: Identificar las fuentes de evidencia, comprender los requisitos legales, documentar los procedimientos.
+  + Preparación: Asegurar la escena, aislar los dispositivos, documentar el entorno.
+  + Adquisición: Recopilar evidencia utilizando las herramientas y técnicas adecuadas.
+  + Verificación: Garantizar la integridad y autenticidad de los datos.
+  + Documentación: Registrar las actividades y mantener la cadena de custodia.
+- **Software de forense digital**
+  + Encase: Herramienta comercial potente para el análisis forense de discos, la creación de imágenes forenses y la recuperación de datos.
+  + Autopsy: Plataforma de código abierto para el análisis de imágenes, la forense de memoria y la investigación de malware.
+  + WinHex: Editor de discos versátil para la inspección de datos en hexadecimal, la recuperación de evidencia y el tallado de archivos.
+  + Volatility Framework: Herramienta de forense de memoria para analizar imágenes de memoria en vivo y adquiridas, investigar módulos del kernel e identificar artefactos de malware.
+- **Adquisición de memoria del sistema**
+  + Memoria del sistema: Elemento más volátil, que contiene procesos activos, módulos cargados y datos temporales.
+  + Adquisición en vivo: Captura el estado de la memoria mientras el sistema está en funcionamiento, utilizando herramientas de hardware o software dedicadas.
+  + Volcado de bloqueo: Se escribe automáticamente en el disco cuando el sistema se bloquea, proporcionando datos forenses valiosos.
+  + Archivo de hibernación: Contiene el estado del sistema guardado para reanudar el trabajo más tarde, ofreciendo información sobre la actividad reciente.
+  + Archivo de paginación: Utilizado por Windows para extender la memoria RAM física con espacio en disco, potencialmente conteniendo evidencia valiosa.
+- **Adquisición de imágenes de disco**
+  + Imagen de disco: Copia exacta de los sectores del disco, conservando todos los datos, incluidos los archivos eliminados y el espacio libre.
+  + Adquisición en vivo: Captura la imagen mientras el sistema está en funcionamiento, conservando datos volátiles como archivos abiertos y entradas del registro.
+  + Adquisición estática: Adquiere la imagen después del apagado del sistema, ideal para mantener la integridad de los datos pero que falta evidencia volátil.
+  + Herramientas: Encase, FTK Imager, Autopsy Imager, dd (línea de comandos de Linux)
+- **Preservación e integridad de la evidencia**
+  + Procedencia: Documentación de la cadena de custodia, que registra cada paso desde la recopilación de evidencia hasta el análisis.
+  + Adquisición de datos: Utilizar técnicas que no alteren los datos originales, como bloqueadores de escritura y herramientas de creación de imágenes forenses.
+  + Preservación de la evidencia: Almacenar la evidencia de forma segura, mantener la cadena de custodia y evitar la contaminación.
+- **Adquisiciones de otros datos**
+  + Tráfico de red: Capturar paquetes de red utilizando taps de red o dispositivos de análisis forense para investigar incidentes basados ​​en la red.
+  + Caché: Almacenamiento temporal para contenido web, historial del navegador y datos de aplicaciones. La adquisición puede revelar la actividad del usuario y la evidencia oculta.
+  + Artefactos: Archivos o entradas del registro creados por malware o actividad específicos, utilizados para su identificación e investigación.
+  + Recuperación de datos: Técnicas para recuperar archivos eliminados o dañados de dispositivos de almacenamiento. Útil para reconstruir eventos y encontrar evidencia oculta.
+  + Instantánea: Copia estática del estado de una máquina virtual en un punto específico en el tiempo, que ofrece oportunidades de análisis forense.
+  + Firmware: Código de bajo nivel en dispositivos de hardware.
+- **Análisis forense digital para la nube**
+  + SLA (Acuerdo de nivel de servicio): Define las políticas de retención de datos y los procedimientos de acceso para los proveedores de la nube.
+  + Imágenes efímeras: Instancias de máquinas virtuales de corta duración en un entorno de nube, que requieren técnicas especiales para su adquisición y análisis.
+  + Problemas de cadena de custodia: Complejidades debidas al almacenamiento remoto y a la infraestructura distribuida de la nube.
+  + Problemas de jurisdicción: La ubicación de los datos puede no coincidir con la autoridad legal del investigador, lo que requiere cooperación internacional.
+  + Leyes sobre violación de datos: Normativas como GDPR e HIPAA imponen responsabilidades en materia de seguridad de datos y notificación de violaciones.
 
 
