@@ -102,4 +102,60 @@
  
 ## Introduction to Memory Forensics
 
-## Memory Forensics using Volatility - Volatility - Registry and Network Connections
+- Es una rama de la forense digital que se centra en el análisis de la memoria de un sistema informático.
+- La memoria es un componente fundamental de cualquier sistema informático, ya que almacena los datos que están en uso en ese momento.
+- Puede proporcionar información valiosa sobre las actividades que se han llevado a cabo en un sistema informático, incluso si se han eliminado los datos del disco duro.
+- Investigación de incidentes de seguridad: puede utilizarse para investigar incidentes de seguridad, como ataques de malware o intrusiones en sistemas.
+- Recuperación de datos: puede utilizarse para recuperar datos que han sido eliminados o cifrados.
+- Datos en uso: La memoria contiene los datos que están en uso en ese momento, como los archivos abiertos, las variables de proceso y los datos de la pila.
+- Datos de proceso: La memoria contiene datos sobre los procesos que se están ejecutando en el sistema, como los nombres de los procesos, los PID y los argumentos de la línea de comandos.
+- Datos de sistema: La memoria contiene datos sobre el sistema operativo y el hardware, como la configuración del sistema, los controladores de dispositivos y los registros de eventos.
+- **Herramientas**
+  + FTK Imager: FTK Imager es una herramienta gratuita y de código abierto que se utiliza para adquirir imágenes de memoria.
+  + Volatility: Volatility es una herramienta gratuita y de código abierto que se utiliza para analizar imágenes de memoria.
+  + X-Ways Forensics: X-Ways Forensics es una herramienta comercial que ofrece una amplia gama de funciones para la forense de memoria.
+  
+## Memory Forensics using Volatility
+
+- Volatility Framework es una herramienta de código abierto para análisis forense de memoria.
+- Es una herramienta poderosa que se puede utilizar para recopilar información valiosa de una imagen de memoria, como procesos en ejecución, archivos, network connections y más.
+- Volatility está disponible para Windows, Linux, macOS, y Android.
+- Está escrito en Python y se puede ejecutar en cualquier sistema operativo que tenga Python instalado.
+- **Comandos comunes**
+  + `pslist`: Lista todos los procesos en ejecución en el momento de la captura de memoria.
+  + `pstree`: Muestra un árbol de procesos de todos los procesos en ejecución.
+  + `psscan`: Busca procesos que coincidan con un criterio específico, como el nombre del proceso o el PID.
+  + `yarascan`: Busca firmas de malware en la memoria.
+  + `memdump`: Extrae un archivo de memoria de una imagen de memoria.
+  + `dllist`: Lista todos los módulos cargados en la memoria.
+  + `ldrmodules`: Lista todos los módulos cargados en la memoria, junto con su ubicación en el disco.
+  + `prviw`: Muestra una vista previa de un archivo de la memoria.
+  + `cmdline`: Lista los comandos que se han ejecutado en el sistema.
+  + Listar todos los procesos en ejecución: `volatility -f memory.dmp pslist`
+  + Listar todos los módulos cargados en la memoria: `volatility -f memory.dmp dllist`
+  + Listar todos los archivos abiertos: `volatility -f memory.dmp filescan`
+  + Recuperar información de cuentas: `volatility -f memory.dmp printkey -k SAM`
+  + Escanear una imagen de memoria en busca de conexiones de red: `volatility -f memory.dmp netscan -t TCP`
+  + Enumerar todas las claves del registro que se encuentran en una imagen de memoria: `volatility -f memory.dmp hivelist`
+- **Recuperar información de cuentas**
+  + Volatility puede utilizarse para recuperar información de cuentas como nombres de usuario, contraseñas, y políticas de contraseñas.
+  + Para recuperar información de cuentas, se puede utilizar el comando printkey. Este comando permite imprimir el contenido de una clave del registro.
+  + `volatility -f memory.dmp printkey -k SAM`
+  + El output del comando anterior incluye el siguiente:
+  ```
+  sam\Domains\Account\Names\0000000000000000
+  sam\Domains\Account\Names\0000000000000001
+  ...
+  sam\Domains\Account\Names\00000000ffffffff
+  ```
+  + Cada línea del output representa una cuenta de usuario. La información de cada cuenta incluye el siguiente: El nombre de usuario, el SID de la cuenta, el tipo de cuenta, el estado de la cuenta.
+  + También se puede utilizar el comando pslist para recuperar información de cuentas.
+  + Este comando lista todos los procesos en ejecución en el momento de la captura de memoria.
+  + Para cada proceso, el comando pslist muestra el nombre del proceso, el PID, y la imagen base del proceso.
+  + Para recuperar información de cuentas de un proceso específico, se puede utilizar el comando printkey junto con el argumento -p.
+  + Este argumento especifica el PID del proceso.
+  + `volatility -f memory.dmp printkey -k SAM -p 12345`: imprime el contenido de la clave SAM del proceso con el PID 12345
+- Conexiones de red
+  + El comando netscan se utiliza para escanear una imagen de memoria en busca de conexiones de red.
+  + El output del comando netscan incluye el siguiente: el tipo de conexión (TCP, UDP, etc.), el estado de la conexión (establecida, cerrada, etc.), la dirección IP local, el puerto local, la dirección IP remota, el puerto remoto.
+  + `volatility -f memory.dmp netscan -t TCP`: escaneará una imagen de memoria en busca de conexiones TCP
