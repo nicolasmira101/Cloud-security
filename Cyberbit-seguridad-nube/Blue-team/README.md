@@ -75,6 +75,17 @@
   
 ## Introduction to Sysmon Sysinternals
 
+- Es una herramienta gratuita de Microsoft que proporciona supervisión y registro detallados de la actividad del sistema en Windows.
+- Se trata de un servicio del sistema y un controlador de dispositivo que se instala en el sistema y permanece residente a través de los reinicios del sistema.
+- Sysmon se puede instalar y configurar utilizando la herramienta Sysmon Configuration Utility.
+- Esta herramienta permite seleccionar los eventos que se van a registrar y personalizar los parámetros de registro.
+- Es una herramienta esencial para cualquier administrador de sistemas que desee proteger su sistema contra amenazas.
+- Sysmon puede utilizarse para detectar una amplia gama de actividades sospechosas
+  + Inicio de procesos desde ubicaciones no autorizadas.
+  + Creación de procesos con líneas de comandos sospechosas.
+  + Conexiones de red a destinos no autorizados.
+  + Cambios en la hora de creación de archivos.
+  
 ## Introduction to Autopsy
 
 ## Introduction to Memory Forensics
