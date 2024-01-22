@@ -47,8 +47,32 @@
 
 ## Recycle Bin Forensic and Rifiuti2 Tool
 
+- La papelera de reciclaje es una carpeta especial en un sistema operativo que almacena los archivos y carpetas que han sido eliminados.
+- Cuando un usuario elimina un archivo o carpeta, el sistema operativo no lo elimina de forma permanente, sino que lo mueve a la papelera de reciclaje.
+- La papelera de reciclaje proporciona una forma de recuperar archivos y carpetas que han sido eliminados accidentalmente.
+- También se puede utilizar para archivar archivos que no se necesitan en el disco duro principal.
+- **Rifiuti2**
+  + Es una herramienta de código abierto que se utiliza para analizar la Papelera de reciclaje en sistemas informáticos Windows.
+  + La herramienta es capaz de recuperar datos eliminados de la Papelera de reciclaje de Windows 95 a Windows 10.
+  + Funciona analizando los archivos INFO2 y INFO3 que se encuentran en la Papelera de reciclaje.
+  + Estos archivos contienen información sobre los archivos eliminados, como la hora y la fecha de eliminación, la ruta original del archivo y el tamaño del archivo.
+  + Puede utilizarse para recuperar pruebas de delitos informáticos, como archivos de imágenes o documentos que hayan sido eliminados por un sospechoso.
+    
 ## Introduction to Prefetch Files
 
+- Son archivos creados por el sistema operativo Windows cada vez que se ejecuta una aplicación por primera vez.
+- Estos archivos contienen información sobre los recursos que se utilizaron para cargar la aplicación, como los archivos DLL, los archivos de iconos y los archivos de datos.
+- Se utilizan para acelerar el inicio de las aplicaciones.
+- Cuando Windows se inicia, carga los Prefetch Files para las aplicaciones que se utilizan con frecuencia.
+- Esto permite que Windows cargue las aplicaciones más rápido, ya que no tiene que buscar los recursos necesarios en el disco duro.
+- Prefetch Files de aplicaciones: Estos archivos se crean para cada aplicación que se ejecuta por primera vez.
+- Prefetch Files de servicios: Estos archivos se crean para cada servicio que se inicia en Windows.
+- **PECmd**
+  + Es una herramienta de línea de comandos que se puede utilizar para administrar los Prefetch Files.
+  + Listar todos los Prefetch Files: `PECmd /list`
+  + Listar los Prefetch Files de una aplicación específica: `PECmd /list "c:\windows\system32\calc.exe"`
+  + Eliminar todos los Prefetch Files: `PECmd /delete`
+  
 ## Introduction to Sysmon Sysinternals
 
 ## Introduction to Autopsy
