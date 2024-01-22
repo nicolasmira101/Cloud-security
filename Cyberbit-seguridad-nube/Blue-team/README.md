@@ -88,6 +88,18 @@
   
 ## Introduction to Autopsy
 
+- Autopsy es un software forense de código abierto que se utiliza para analizar datos digitales.
+- Análisis de datos de múltiples fuentes: puede analizar datos de una variedad de fuentes, incluyendo discos duros, unidades USB, tarjetas SD, dispositivos móviles, correo electrónico, archivos de registro y más.
+- Visualización de datos: proporciona una variedad de herramientas para visualizar datos, lo que facilita la identificación de patrones y anomalías.
+- Extracción de datos: puede extraer datos de fuentes digitales, lo que los hace disponibles para su análisis más detallado.
+- Reportes: puede generar informes detallados de los resultados del análisis.
+- **Comandos comunes**
+  + `autopsy`: Inicia Autopsy.
+  + `autopsy -case <nombre_del_caso>`: Abre un caso existente.
+  + `autopsy -add-source <ruta_de_la_fuente_de_datos>`: Agrega una fuente de datos a un caso.
+  + `autopsy -analyze`: Analiza un caso.
+  + `autopsy -report`: Genera un informe de un caso.
+ 
 ## Introduction to Memory Forensics
 
 ## Memory Forensics using Volatility - Volatility - Registry and Network Connections
