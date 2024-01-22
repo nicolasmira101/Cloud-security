@@ -31,7 +31,19 @@
 
 ## Windows Registry Introduction and Structure
 
--
+- El registro de Windows es una base de datos jerárquica que contiene datos críticos para el funcionamiento de Windows y las aplicaciones y servicios que se ejecutan en Windows.
+- Los datos se estructuran en un formato de árbol, con cada nodo del árbol denominado clave.
+- Cada clave puede contener subclaves y entradas de datos denominadas valores.
+- Configuración del sistema, como la ubicación de la carpeta de inicio, la pantalla de inicio de sesión y las preferencias de energía.
+- Configuración de las aplicaciones, como los accesos directos, las preferencias y las opciones de seguridad.
+- Configuración de los servicios, como los servicios de red y los servicios de impresión.
+- El Registry Editor es una herramienta de Windows que permite ver y editar el registro.
+- Se puede utilizar para realizar cambios en la configuración del sistema, las aplicaciones y los servicios.
+- Los atacantes pueden utilizar el registro para instalar malware, robar información o causar daños al sistema.
+
+<p align="center">
+  <img src="https://www.bleepstatic.com/images/news/tutorials/windows/r/how-to-use-registry-editor/windows-registry-editor.jpg"/>
+</p>
 
 ## Recycle Bin Forensic and Rifiuti2 Tool
 
