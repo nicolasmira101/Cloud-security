@@ -61,7 +61,72 @@
 ## Introduction to Privilege Escalation
 
 - Permite al atacante obtener un control total sobre el sistema o red objetivo.
-- 
+- El atacante busca explotar vulnerabilidades en el sistema operativo, las aplicaciones o la configuración de seguridad para obtener privilegios elevados.
+- Escalada vertical: se produce cuando un atacante obtiene privilegios de mayor nivel que los que tenía inicialmente. Por ejemplo, un usuario normal puede obtener privilegios de administrador.
+- Escalada horizontal: se produce cuando un atacante obtiene acceso a recursos o sistemas que no le estaban permitidos. Por ejemplo, un usuario de una aplicación puede obtener acceso a los datos de otro usuario.
+- **Herramientas**
+  + Metasploit: Es un framework de hacking ético que incluye una amplia gama de módulos para escalar privilegios.
+  + PowerUpKit: Es una colección de herramientas y scripts diseñados para escalar privilegios en sistemas Windows.
+  + LinEnum: Es una herramienta de línea de comandos para enumerar los privilegios de un usuario en sistemas Linux.
+- **Técnicas**
+  + Explotación de vulnerabilidades: Los atacantes pueden buscar vulnerabilidades en el sistema operativo, las aplicaciones o la configuración de seguridad para explotarlas y obtener privilegios elevados.
+  + Utilización de exploits conocidos: Los atacantes pueden utilizar exploits conocidos que se han publicado en línea.
+  + Desarrollo de exploits personalizados: Los atacantes pueden desarrollar exploits personalizados para vulnerabilidades específicas.
+  + Uso de herramientas de línea de comandos: Los atacantes pueden utilizar herramientas de línea de comandos para aprovechar     	  vulnerabilidades o realizar cambios en la configuración del sistema.
+- Ejemplo LinEnum
+```
+# LinEnum
+
+# Escaneando el sistema...
+
+[+] Sistema operativo: Ubuntu 22.04
+[+] Usuario actual: user
+[+] Grupo actual: users
+
+# Privilegios del usuario actual
+
+[+] Sudo: habilitado
+[+] Sudoers: user ALL=(ALL) NOPASSWD: ALL
+
+# Escalando privilegios...
+
+# Ejecutando el comando sudo con la opción -i
+
+sudo -i
+
+# Cambiando al usuario root
+
+whoami
+root
+```
+
+- Ejemplo PowerUpKit
+```
+# PowerUpKit
+
+# Escaneando el sistema...
+
+[+] Sistema operativo: Windows 10
+[+] Usuario actual: user
+[+] Grupo actual: Users
+
+# Privilegios del usuario actual
+
+[+] Sesión: interactiva
+[+] Control total del equipo: no
+[+] Sesión con privilegios elevados: no
+
+# Escalando privilegios...
+
+# Ejecutando el exploit ms16-075
+
+PowerUpKit.ps1 -Exploit ms16-075
+
+# Cambiando al usuario administrador
+
+whoami
+administrator
+```  
 ## Introduction to Windows Credentials and Credentials Dumping
 
 ## Introduction to Mimikatz
