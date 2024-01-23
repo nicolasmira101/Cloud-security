@@ -35,10 +35,33 @@
  
 ## Shikata-Ga-Nai
 
+- Shikata-Ga-Nai, significa "no se puede evitar" en japonés.
+- Cifra payloads de malware para dificultar su detección por las herramientas de seguridad.
+- Utiliza instrucciones FPU antiguas para calcular la dirección de la siguiente instrucción a descifrar.
+- Utiliza un esquema de cifrado XOR avanzado.
+- El esquema de descifrado utiliza una clave secreta y un contador para descifrar cada byte del payload.
+- Se ha utilizado en una variedad de tipos de malware, incluidos ransomware, trojanos y malware de robo de información.
+ 
 ## Alchimist Framework
+
+- Alchimist es un framework de ataque de origen chino que se compone de un backend C2 y un troyano de acceso remoto (RAT).
+- Está diseñado para permitir controlar y recopilar datos de dispositivos comprometidos.
+- Está escrito en Go y se ejecuta en un servidor web.
+- La RAT, llamada Insekt, también está escrita en GoLang y es multiplataforma.
+- Insekt proporciona a los atacantes una variedad de capacidades, incluyendo la recopilación de información, la toma de capturas de pantalla, la ejecución de comandos, la ejecución de shellcode, el escaneo de redes y la manipulación de SSH.
+- Utiliza un modelo de cliente-servidor, con un servidor central que se comunica con agentes instalados en dispositivos comprometidos.
+- Puede controlar y recopilar datos de una variedad de dispositivos, incluidos sistemas operativos Windows, macOS y Linux, así como dispositivos móviles.
+- Mantener los sistemas actualizados con las últimas correcciones de seguridad.
+- Usar firewalls y sistemas de detección de intrusiones (IDS).
+- Educar a los empleados sobre la seguridad cibernética.
+- Utilizar soluciones de seguridad que bloqueen Alchimist y Insekt.
+- Monitorear el tráfico de red para detectar actividad sospechosa.
+- Implementar un proceso de respuesta a incidentes de seguridad.
 
 ## Introduction to Privilege Escalation
 
+- Permite al atacante obtener un control total sobre el sistema o red objetivo.
+- 
 ## Introduction to Windows Credentials and Credentials Dumping
 
 ## Introduction to Mimikatz
