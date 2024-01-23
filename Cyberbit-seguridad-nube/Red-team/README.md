@@ -156,7 +156,7 @@ administrator
 - Puede extraer contraseñas, hashes de contraseñas, tokens de autenticación y claves de sesión de una variedad de fuentes tales como:  memoria del sistema operativo, archivos de contraseñas, registros del sistema.
 - Mimikatz puede generar tráfico de red que puede ser detectado por un firewall o un sistema de detección de intrusiones.
 - puede registrar eventos en los registros del sistema que pueden ser detectados por un sistema de administración de eventos de seguridad.
-- Comandos
+
 ```
 # Extraer todas las contraseñas del almacén de credenciales del sistema operativo
 mimikatz "sekurlsa::logonpasswords"
@@ -172,3 +172,18 @@ mimikatz "sekurlsa::logonpasswords /logonid:S-1-5-21-0-0-0 /session"
 ```
  
 ## Malicious use of Registry
+
+- El registro de Windows es una base de datos jerárquica que contiene información sobre la configuración del sistema operativo y los programas instalados.
+- Los atacantes pueden abusar del registro para controlar el sistema operativo, ocultar malware o evadir la detección.
+- Una de las técnicas que utilizan los analistas de malware para identificar el uso malicioso del registro es examinar los cambios que ha realizado el malware en el registro.
+- Estos cambios pueden incluir la adición o eliminación de claves de registro, la modificación de valores de registro o la creación de nuevos servicios.
+- El malware puede utilizar el registro para cambiar la configuración del sistema operativo, como la configuración de seguridad, la configuración de red o la configuración de inicio.
+- El malware puede crear claves de registro que oculten la ubicación del malware o que hagan que el malware aparezca como un proceso legítimo.
+- El malware puede crear registros de eventos falsos o modificar registros de eventos existentes para ocultar su actividad.
+- Los atacantes pueden utilizar los servicios para ejecutar malware de forma persistente en el sistema operativo.
+- Una vez creado el archivo de servicio, el atacante debe registrar el servicio en el registro.
+- El atacante debe agregar una nueva clave de registro al subárbol `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services`.
+- El malware fileless es un tipo de malware que no se almacena como un archivo independiente sino en en el registro o en la memoria del sistema.
+- El malware fileless es más difícil de detectar que el malware tradicional porque no deja rastros en el disco duro.
+- El Editor del Registro es una herramienta que se utiliza para modificar el registro de Windows.
+ 
