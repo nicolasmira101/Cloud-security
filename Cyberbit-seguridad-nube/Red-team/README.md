@@ -148,4 +148,27 @@ administrator
     
 ## Introduction to Mimikatz
 
+- Es una herramienta de código abierto que se utiliza para extraer credenciales de seguridad, como contraseñas, hashes de contraseñas, tokens de autenticación y claves de sesión, de sistemas operativos Windows.
+- Mimikatz se puede utilizar para robar contraseñas de usuarios desprevenidos.
+- Mimikatz se puede utilizar para adivinar contraseñas de usuarios.
+- Mimikatz se puede utilizar para obtener privilegios elevados en un sistema operativo Windows.
+- Puede incluir la identificación de credenciales débiles o desactualizadas, o la detección de vulnerabilidades en los protocolos de autenticación.
+- Puede extraer contraseñas, hashes de contraseñas, tokens de autenticación y claves de sesión de una variedad de fuentes tales como:  memoria del sistema operativo, archivos de contraseñas, registros del sistema.
+- Mimikatz puede generar tráfico de red que puede ser detectado por un firewall o un sistema de detección de intrusiones.
+- puede registrar eventos en los registros del sistema que pueden ser detectados por un sistema de administración de eventos de seguridad.
+- Comandos
+```
+# Extraer todas las contraseñas del almacén de credenciales del sistema operativo
+mimikatz "sekurlsa::logonpasswords"
+
+# Extraer el hash de contraseña de la cuenta de administrador
+mimikatz "sekurlsa::logonpasswords /logonid:S-1-5-21-0-0-0"
+
+# Extraer el token de autenticación de la cuenta de administrador
+mimikatz "sekurlsa::logonpasswords /logonid:S-1-5-21-0-0-0 /ticket"
+
+# Extraer la clave de sesión de la cuenta de administrador
+mimikatz "sekurlsa::logonpasswords /logonid:S-1-5-21-0-0-0 /session"
+```
+ 
 ## Malicious use of Registry
