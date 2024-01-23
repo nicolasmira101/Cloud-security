@@ -129,6 +129,23 @@ administrator
 ```  
 ## Introduction to Windows Credentials and Credentials Dumping
 
+- El Local Security Authority Subsystem Service (LSASS) es un servicio de Windows que proporciona funciones de seguridad, como la autenticación de usuarios y la gestión de contraseñas.
+- El LSASS almacena las credenciales de los usuarios en un archivo llamado `ntdll.dll`.
+- Las contraseñas de los usuarios se almacenan en el registro de Windows en forma de hash.
+- Las credenciales de los usuarios, como las contraseñas de las redes Wi-Fi y las cuentas de servicio web, se almacenan en el archivo `Credential Manager`.
+- Las credenciales de los usuarios se almacenan en la memoria cuando un usuario está autenticado.
+- En un entorno de dominio, los usuarios se autentican con el servidor de dominio.
+- El servidor de dominio almacena las contraseñas de los usuarios en Active Directory.
+- Lightweight Directory Access Protocol (LDAP) es un protocolo de acceso a directorios que se utiliza para acceder a Active Directory.
+- LDAP se puede utilizar para recuperar las credenciales de los usuarios desde Active Directory.
+- Credentials dumping es el proceso de recuperar las credenciales de un usuario.
+- Los atacantes pueden utilizar el credentials dumping para obtener acceso a los sistemas y redes de una organización.
+- Proteger las credenciales
+  + Utilizar contraseñas seguras
+  + Habilitar la autenticación multifactor (MFA)
+  + Actualizar los sistemas operativos y las aplicaciones
+  + Los usuarios deben ser educados sobre las mejores prácticas de seguridad de contraseñas.
+    
 ## Introduction to Mimikatz
 
 ## Malicious use of Registry
