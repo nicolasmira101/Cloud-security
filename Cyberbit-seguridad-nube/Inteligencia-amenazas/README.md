@@ -1,5 +1,91 @@
 # Inteligencia de amenazas
 
+## Threat Intelligence
+
+- **Fuentes de Investigación sobre Amenazas**
+  + Foros de Hackers: Sitios web clandestinos donde los hackers comparten información sobre vulnerabilidades, exploits y herramientas. Ejemplo: "ExploitDB".
+  + Blogs de Seguridad: Fuentes de noticias e investigación mantenidas por expertos en seguridad, informando sobre amenazas emergentes y análisis de ataques. Ejemplo: "Krebs on Security".
+  + Informes de Amenazas: Documentos publicados por organizaciones de seguridad o investigadores individuales con detalles sobre campañas de amenazas específicas y recomendaciones de mitigación. Ejemplo: "Verizon Data Breach Investigations Report".
+- **Deep Web**
+  + Una parte oculta de Internet que no indexa por los buscadores habituales.
+  + Contiene contenido legal e ilegal, como mercados negros y foros clandestinos.
+  + Anonimato, alto riesgo de encontrar malware y contenido ilícito.
+- **Proveedores de Inteligencia de Amenazas**
+  + Datos de Comportamiento: Analizan patrones de actividad maliciosa para detectar amenazas. Ejemplo: ThreatQuotient, Palo Alto Networks.
+  + Datos de Reputación: Asignan puntuaciones de riesgo a IPs, dominios y URLs. Ejemplo: PhishTank, Cisco Talos.
+  + Datos de Amenazas: Proveen acceso a información sobre vulnerabilidades, exploits, campañas de malware y actores maliciosos. Ejemplo: Recorded Future, Mandiant.
+  + SIEM (Sistemas de Gestión de Información y Eventos de Seguridad): Recolectan y analizan datos de seguridad de múltiples fuentes para identificar amenazas. Ejemplo: ArcSight, Splunk.
+- **Modelos Comerciales de Inteligencia de Amenazas**
+  + Freemium: Acceso básico gratuito con características limitadas, pago por funciones avanzadas.
+  + Suscripción: Pago mensual o anual por acceso completo a los servicios.
+  + Consultoría: Servicios profesionales de análisis de amenazas e implementación de soluciones.
+- **IoC (Indicadores de Compromiso)**
+  + Evidencias observables de una intrusión o actividad maliciosa.
+  + IP maliciosa, URL con phishing, hash de malware, comportamiento de red sospechoso.
+- **Fuentes de Datos de Amenazas**
+  + Oasis: Estándar abierto para compartir IoC entre organizaciones.
+  + STIX (Structured Threat Information eXchange): Lenguaje formal para representar información sobre amenazas.
+  + TAXII (Threat Actor Exchange Indicator Information): Protocolo para el intercambio de IoC y STIX.
+  + AIS (Automated Indicator Sharing): Sistema automatizado para compartir IoC en tiempo real.
+- **Mapas de Amenazas**
+  + Visualizaciones que representan el panorama de amenazas, mostrando actores, campañas, vectores de ataque y relaciones entre ellos.
+
+<p align="center">
+  <img src="https://www.silobreaker.com/wp-content/uploads/2023/06/Threat-Intel-Cycle-Wheel-Graphic-1024x629.png"/>
+</p>
+
+## Attack Frameworks and Indicator Management
+
+- **Investigación de amenazas (Pirámide del Dolor CTI)**
+  + La investigación de amenazas es el proceso de recopilar, analizar y compartir información sobre las amenazas cibernéticas.
+  + El objetivo de la investigación de amenazas es mejorar la comprensión de las amenazas, lo que puede ayudar a las organizaciones a protegerse mejor contra ellas.
+  + La pirámide del dolor CTI (Cyber Threat Intelligence) es un marco conceptual que ayuda a clasificar la información de inteligencia de amenazas según su valor y la dificultad para cambiarla por parte de los adversarios.
+  + Esta pirámide tiene tres niveles: indicadores, tácticas, técnicas y procedimientos (TTPs), y contexto.
+  + Los indicadores son datos específicos, como direcciones IP o hashes, que pueden cambiar fácilmente.
+  + Las tácticas, técnicas y procedimientos son patrones de comportamiento de los atacantes
+  + El contexto proporciona información sobre las motivaciones y objetivos de los adversarios.
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/D4D12AQGd2YCEuIl21Q/article-inline_image-shrink_1500_2232/0/1674720822041?e=1709769600&v=beta&t=J2_QT7czQGiy22QBXS0LYKV-ddnpkBxIZxHcXS9Mu80"/>
+</p>
+
+- **Cyber Kill Chain**
+  +  Es un modelo que describe las fases secuenciales que un adversario sigue para llevar a cabo un ataque.
+  +  Reconnaissance: El atacante recopila información sobre el objetivo.
+  + Intrusion: El atacante entra en el sistema del objetivo.
+  + Exploitation: El atacante explota una vulnerabilidad para obtener acceso a los sistemas del objetivo.
+  + Installation: El atacante instala malware o software malicioso en los sistemas del objetivo.
+  + Command and Control: El atacante controla el malware o el software malicioso a través de un servidor de comando y control.
+  + Actions on Objectives: El atacante realiza acciones en los sistemas del objetivo, como robar datos o interrumpir las operaciones.
+  +  Comprender estas etapas ayuda a las organizaciones a desarrollar estrategias para prevenir, detectar y responder a los ataques en cada fase.
+<p align="center">
+  <img src="https://seqred.pl/wp-content/uploads/2020/08/cyber-kill-chain-process.png"/>
+</p>  
+
+- **MITRE ATT&CK**
+  + MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) es un marco de trabajo que describe las TTP utilizados por los atacantes en cada fase del ciclo de vida del ataque.
+  + Organizado en matrices, proporciona un panorama completo de las acciones que los adversarios pueden llevar a cabo.
+  + Permite a los profesionales de seguridad comprender y mejorar sus defensas.
+  + El marco se divide en 14 grupos de tácticas y más de 300 técnicas.
+- **Diamond Model of Intrusion Analysis**
+  + Este modelo se basa en cuatro componentes: adversario, infraestructura, capacidad y víctima.
+  + Ayuda a los analistas a entender las relaciones entre estos elementos y a analizar intrusiones desde una perspectiva más holística.
+  + La idea central es ver cómo un adversario selecciona sus objetivos, utiliza ciertas capacidades y aprovecha la infraestructura para afectar a una víctima.
+  + Context: El contexto del ataque, que incluye la información sobre el objetivo, el atacante y el entorno.
+  + Indicators: Los indicadores de ataque, que son las evidencias de un ataque.
+  + Observables: Los observables, que son los datos que se pueden recopilar de un sistema o red.
+  + Hypotheses: Las hipótesis, que son las posibles explicaciones de un ataque.
+<p align="center">
+  <img src="https://uploads-us-west-2.insided.com/cymulate-en/attachment/4d11266f-8ee0-4855-aabb-9b40f89e73d9.png"/>
+</p>  
+    
+- **STIX, TAXII, OpenIOC, MISP**
+  + Son formatos de intercambio de información de inteligencia de amenazas.
+  + Estos formatos se utilizan para compartir información de inteligencia de amenazas entre diferentes organizaciones.
+  + STIX: es un formato estándar para representar información de inteligencia de amenazas.
+  + TAXII: es un protocolo de transferencia de datos para STIX.
+  + OpenIOC: es un formato abierto para representar información de inteligencia de amenazas.
+  + MISP: es un sistema de gestión de información de seguridad (SIEM) que admite STIX, TAXII y OpenIOC.
+
 ## MISP
 
 - MISP (Malware Information Sharing Platform & Threat Sharing) es una plataforma de código abierto diseñada para facilitar el intercambio de información sobre amenazas entre organizaciones.
