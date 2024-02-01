@@ -39,3 +39,27 @@
 - Threat Intelligence teams: provide context and insights to support all other functions.
 
 ## Microsoft Security Graph
+
+- Provides a unified programmability model that you can use to access the data in Microsoft 365 and Windows.
+- The Microsoft Graph API offers a single endpoint, https://graph.microsoft.com
+
+<p align="center">
+  <img src="https://learn.microsoft.com/en-us/training/wwl-sci/introduction-microsoft-365-threat-protection/media/graph-security-overview-diagram.png"/>
+</p>
+
+- Developers can use the Security Graph to build intelligent security services
+- Advanced hunting example in Microsoft Defender XDR
+
+```
+POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
+
+{
+    "Query": "DeviceProcessEvents | where InitiatingProcessFileName =~ \"powershell.exe\" | project Timestamp, FileName, InitiatingProcessFileName | order by Timestamp desc | limit 2"
+}
+```
+
+- You can use [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) to run the hunting query
+
+<p align="center">
+  <img src="https://learn.microsoft.com/en-us/training/wwl-sci/introduction-microsoft-365-threat-protection/media/graph-explorer-hunting-kql-query-2023-06-08.png"/>
+</p>
