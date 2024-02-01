@@ -6,7 +6,7 @@ Gain expertise in monitoring, identifying, investigating, and responding to thre
 
 ## Syllabus
 
-1. Microsoft Defender XDR
+1. [Microsoft Defender XDR](https://github.com/nicolasmira101/Cloud-security/tree/117759b7d8b34357a4d34d8667bdc4ad18fe204c/Microsoft-security-operations/Defender-xdr)
 2. Microsoft Entra
 3. Microsoft Defender for Office 365
 4. Microsoft Defender for Identity
