@@ -1,7 +1,8 @@
 # Microsoft Defender XDR
 
 - Extended Detection and Response (XDR)
-- Microsoft Defender XDR is an integrated threat protection suite with solutions that detect malicious activity
+- Microsoft Defender XDR is an integrated threat protection suite with solutions that detect malicious activity.
+- Natively coordinates detection, prevention, investigation, and response across endpoints, identities, email, and applications.
 
 <p align="center">
   <img src="https://learn.microsoft.com/en-us/training/wwl-sci/introduction-microsoft-365-threat-protection/media/defend-attack-chains.png"/>
@@ -58,8 +59,25 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 }
 ```
 
-- You can use [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) to run the hunting query
-
 <p align="center">
   <img src="https://learn.microsoft.com/en-us/training/wwl-sci/introduction-microsoft-365-threat-protection/media/graph-explorer-hunting-kql-query-2023-06-08.png"/>
 </p>
+
+## Microsoft Defender portal
+
+- The [Microsoft Defender portal](https://security.microsoft.com/) is a specialized workspace designed to meet the needs of security teams.
+- You can investigate the alerts that affect your network, understand what they mean, and collate evidence.
+- The Microsoft Defender portal brings together signals from different sources to present a holistic view of Microsoft 365 environment.
+- The Microsoft Defender portal combines protection, detection, investigation, and response, in a central place.
+
+## Incidents Response
+
+- Microsoft Defender XDR provides a cross-domain threat correlation and purpose-driven portal to investigate threats.
+- Incidents are based on related alerts created when a malicious event or activity is seen on your network.
+- An incident is a collection of correlated alerts that make up the story of an attack.
+- Microsoft Defender XDR automatically aggregates malicious and suspicious events that are found in different device.
+- Grouping related alerts into an incident gives security defenders a comprehensive view of an attack.
+- Managing incidents is critical in ensuring that threats are contained and addressed.
+- Microsoft Defender XDR is aligned to the MITRE ATT&CK™ framework.
+- Investigate alerts that are affecting your network, understand what they mean, and how to resolve them.
+- Microsoft Defender for Endpoint includes automated investigation and remediation (AIR) capabilities.
