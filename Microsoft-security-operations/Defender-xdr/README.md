@@ -81,3 +81,9 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 - Microsoft Defender XDR is aligned to the MITRE ATT&CK™ framework.
 - Investigate alerts that are affecting your network, understand what they mean, and how to resolve them.
 - Microsoft Defender for Endpoint includes automated investigation and remediation (AIR) capabilities.
+
+## Advanced hunting
+
+- Is a query-based threat-hunting tool.
+- You can proactively inspect events in your network to locate threat indicators and entities.
+-  
