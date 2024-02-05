@@ -18,4 +18,5 @@ Gain expertise in monitoring, identifying, investigating, and responding to thre
 
 ## Links
 
-- [Examen SC-200: Microsoft Security Operations Analyst](https://learn.microsoft.com/es-es/credentials/certifications/exams/sc-200/)
+- [Exam SC-200: Microsoft Security Operations Analyst](https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-200/)
+- [Practice Assessment for Exam SC-200: Microsoft Security Operations Analyst](https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-200/practice/assessment?assessment-type=practice&assessmentId=59)
