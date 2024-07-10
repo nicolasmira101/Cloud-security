@@ -1,5 +1,3 @@
-# Actores de amenazas
-
 ## APT35
 
 - APT35, también conocido como Charming Kitten o Fósforo, ha estado presente desde 2014.

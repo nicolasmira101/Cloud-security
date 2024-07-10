@@ -1,5 +1,3 @@
-# Vulnerabilidades
-
 ## Follina
 
 - Vulnerabilidad de dia cero de Microsoft.

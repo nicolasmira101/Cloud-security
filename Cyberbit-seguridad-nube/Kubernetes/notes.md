@@ -1,5 +1,3 @@
-# Kubernetes
-
 ## Aspectos generales
 
 - Kubernetes fue desarrollado por Google para ayudar en la gestión de aplicaciones en entornos de contenedores.

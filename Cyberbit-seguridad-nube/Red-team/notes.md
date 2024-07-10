@@ -1,5 +1,3 @@
-# Red Team
-
 ## Brute Ratel C4
 
 - Es una herramienta de post-explotación gratuita y de código abierto desarrollada por Chatan Nayak.

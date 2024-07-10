@@ -1,5 +1,3 @@
-# Inteligencia de amenazas
-
 ## Threat Intelligence
 
 - **Fuentes de Investigación sobre Amenazas**

@@ -1,5 +1,3 @@
-# Blue Team
-
 ## Filter Captures in Wireshark
 
 - Wireshark es un potente analizador de protocolos de red.

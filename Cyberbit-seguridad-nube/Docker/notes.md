@@ -1,5 +1,3 @@
-# Docker
-
 ## Información general
 
 - Plataforma de código abierto que facilita la creación, implementación y ejecución de aplicaciones mediante contenedores.
